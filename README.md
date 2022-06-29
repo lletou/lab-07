@@ -13,10 +13,10 @@ HunterGate(
 ' CMakeLists.txt
 ```
 
-### Предварительно создаем релиз нашего проекта (lab07), и посчитать его хэш SHA1
+### Предварительно создаем релиз нашего проекта (lab-07), и посчитать его хэш SHA1
 
 ```bash
-wget https://github.com/lletou/lab07/archive/refs/tags/v1.0.tar.gz
+wget https://github.com/lletou/lab-07/archive/refs/tags/v1.0.tar.gz
 
 openssl sha1 v1.0.tar.gz
 ```
@@ -44,9 +44,9 @@ hunter_add_version(
 	VERSION
 	1.0.0
 	URL
-	https://github.com/lletou/lab07/archive/refs/tags/v1.0.tar.gz
+	https://github.com/lletou/lab-07/archive/refs/tags/v1.0.tar.gz
 	SHA1
- 	bcd5a3fb752d728b801869969fac946321262299
+ 	73c3f3640a68d666760d5f10d7abf9679acbfd95
 )
 
 
